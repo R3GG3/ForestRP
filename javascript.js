@@ -48,7 +48,8 @@ function nav()
 
     if(windowwidth > 1360)
     {
-        $('#opennavbutton').css('display', 'none') 
+        $('#opennavbutton').css('display', 'none')
+		$('#nav').css('display', 'none')
         first = true;
     }
 

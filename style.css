@@ -99,12 +99,12 @@ body
 .cvbutton
 {
     background-color: #273c75;
-    font-size: 36px;
+    font-size: 38px;
     border-radius: 25px;
     margin-left: 30px;
     margin-top: 10px;
     width: 200px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px;
 }
 
 .cvbutton:hover
@@ -207,6 +207,7 @@ a
     body
     {
         overflow: hidden;
+	background-image: url("img/tlo.png");
     }
 
     #navbar
@@ -226,10 +227,17 @@ a
        padding: 10px;
        border-left: none;
     }
+	
+	#content2
+	{
+		margin-left: 64%;
+		padding: 0px 10px 10px 10px;
+		border-top: 1px solid white;
+	}
 
     #cvzone
     {
-        margin-left: 50%;
+        margin-left: 48%;
     }
 
     h1
@@ -244,4 +252,11 @@ a
         width: 210px;
         height: 54px;
     }
+	
+	.cvbutton
+	{
+		font-size: 48px;
+		width: 200px;
+		padding: 20px 20px 20px 20px ;
+	}
 }
