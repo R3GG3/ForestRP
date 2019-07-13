@@ -1,8 +1,8 @@
 window.onload = start;
-
+var first = true;
 function start()
 {
-    $('#mySidenav').css('width', '0')
+    $('#opennavbutton').css('display', 'none')
     nav();
 }
 
@@ -40,14 +40,16 @@ function nav()
 {
     var windowwidth = $(window).width();
 
-    if(windowwidth <= 1360)
+    if((windowwidth <= 1360) && (first))
     {
-        
+        $('#opennavbutton').css('display', 'block')
+        first = false;
     }
 
     if(windowwidth > 1360)
     {
-        
+        $('#opennavbutton').css('display', 'none') 
+        first = true;
     }
 
     setTimeout("nav()", 1);

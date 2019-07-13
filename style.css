@@ -42,7 +42,7 @@ body
     margin-top: 1%;
     margin-right: 10px;
     font-size: 28px;
-    padding: 8px 3px 0% 3px;
+    padding: 8px 3px 0px 3px;
     text-shadow: 1px 1px red;
     border: 1px solid rgba(239, 244, 255, 0.3);
     width: 194px;
@@ -223,6 +223,8 @@ a
     #content
     {    
        margin-left: 40%;
+       padding: 10px;
+       border-left: none;
     }
 
     #cvzone
@@ -233,5 +235,13 @@ a
     h1
     {
         margin-left: 35%;
+    }
+    
+    .navbutton
+    {
+        padding: 8px;
+        font-size: 48px;
+        width: 210px;
+        height: 54px;
     }
 }
