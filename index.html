@@ -9,7 +9,6 @@
         <title>ForestRP</title>
 
         <!--STYLESHEET LINKS-->
-        <link href="bootstrap.min.css"/>
         <link rel="StyleSheet" href="style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet"/>
 
@@ -29,8 +28,23 @@
                                         <div class="navbutton" onclick="onas()" style="float: right;"><a href="#content">O nas</a></div>
                                     </div>
                         </nav>
-                    </div>
-                    <div style="clear: both;"></div>
+                        <div style="clear: both;"></div>
+                </div>
+
+                <div id="mobilenavbar">
+                        <div id="opennavbutton" style="font-size:30px;cursor:pointer; text-align: justify; margin-left: 10px; width: 3%;" onclick="openNav()">&#9776</div>
+                        <nav>
+                                <div id="nav" style="float: left;">
+                                        <div style="font-size: 40px; width: 3%; margin-left: 90%;"><a onclick="closeNav()">&times;</a></div>
+                                        <div class="navbutton" style="margin-left: 100px; margin-top: 50px;"><a href="https://discord.gg/Em9E9Jz" target="_blank">Discord</a></div>
+                                        <div class="navbutton" style="margin-left: 100px; margin-top: 80px;" onclick="kontakt()"><a href="#contact">Kontakt</a></div>
+                                        <div class="navbutton" style="margin-left: 100px; margin-top: 80px;"><a href="files/rules.pdf" target="_blank">Regulamin</a></div>
+                                        <div class="navbutton" style="margin-left: 100px; margin-top: 80px;" onclick="onas()"><a href="#content">O nas</a></div>
+                                </div>	
+                        </nav>
+                        
+                </div>
+                    
         </header>
         <main>
             <header><div id="title">ForestRP</div></header>

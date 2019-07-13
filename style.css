@@ -33,7 +33,7 @@ body
 
 #navbtngroup
 {
-    margin-top: 1%;
+    margin-top: 2%;
     margin-right: 20%;
 }
 
@@ -139,4 +139,99 @@ a
     color: white;
     display: block;
     cursor: default;
+}
+
+#nav
+{
+    display: none;
+    position: absolute;
+    background-color: #353b48;
+    width: 400px;
+    height: 100%;
+}
+
+.mobilenavbutton
+{
+    margin-left: 1000px;
+}
+
+
+@media (max-width: 1690px){
+
+    #logo
+    {
+        margin-left: 2%;
+        margin-top: 13px;
+        height: 128px;
+        width: 128px;
+    }
+
+    #navbtngroup
+    {
+        margin-top: 2%;
+        margin-right: 24%;
+    }
+
+    #cvzone
+    {
+        margin-left: 35.3%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1460px){
+
+    #logo
+    {
+        margin-left: 2%;
+        margin-top: 13px;
+        height: 128px;
+        width: 128px;
+    }
+
+    #navbtngroup
+    {
+        margin-top: 2%;
+        margin-right: 20%;
+    }
+
+    #cvzone
+    {
+        margin-left: 35.3%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1360px){
+
+    body
+    {
+        overflow: hidden;
+    }
+
+    #navbar
+    {
+        display: none;
+    }
+
+    #title
+    {
+        width: 100%;
+        margin-left: 20%;
+    }
+
+    #content
+    {    
+       margin-left: 40%;
+    }
+
+    #cvzone
+    {
+        margin-left: 50%;
+    }
+
+    h1
+    {
+        margin-left: 35%;
+    }
 }
